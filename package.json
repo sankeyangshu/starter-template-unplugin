@@ -2,7 +2,7 @@
   "name": "starter-template-unplugin",
   "version": "0.0.0",
   "type": "module",
-  "packageManager": "pnpm@10.14.0",
+  "packageManager": "pnpm@10.15.0",
   "description": "_description_",
   "author": {
     "name": "sankeyangshu",
@@ -64,8 +64,8 @@
     "prepare": "simple-git-hooks"
   },
   "dependencies": {
-    "unplugin": "^2.3.6",
-    "unplugin-utils": "^0.2.5"
+    "unplugin": "^2.3.8",
+    "unplugin-utils": "^0.3.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
@@ -73,12 +73,12 @@
     "@sankeyangshu/eslint-config": "^2.2.0",
     "@types/node": "^24.3.0",
     "bumpp": "^10.2.3",
-    "eslint": "^9.33.0",
+    "eslint": "^9.34.0",
     "lint-staged": "^16.1.5",
     "prettier": "^3.6.2",
     "simple-git-hooks": "^2.13.1",
     "tsdown": "^0.14.1",
-    "tsx": "^4.20.4",
+    "tsx": "^4.20.5",
     "typescript": "^5.9.2",
     "vitest": "^3.2.4"
   },
