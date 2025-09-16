@@ -2,7 +2,7 @@
   "name": "starter-template-unplugin",
   "version": "0.0.0",
   "type": "module",
-  "packageManager": "pnpm@10.15.1",
+  "packageManager": "pnpm@10.16.1",
   "description": "_description_",
   "author": {
     "name": "sankeyangshu",
@@ -70,21 +70,21 @@
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
-    "@sankeyangshu/eslint-config": "^2.2.0",
-    "@types/node": "^24.3.1",
+    "@sankeyangshu/eslint-config": "^2.3.0",
+    "@types/node": "^24.5.0",
     "bumpp": "^10.2.3",
     "eslint": "^9.35.0",
     "lint-staged": "^16.1.6",
     "prettier": "^3.6.2",
     "simple-git-hooks": "^2.13.1",
-    "tsdown": "^0.14.2",
+    "tsdown": "^0.15.1",
     "tsx": "^4.20.5",
     "typescript": "^5.9.2",
     "vitest": "^3.2.4"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm typecheck && pnpm lint-staged",
-    "commit-msg": "npx --no-install commitlint --edit $1"
+    "commit-msg": "pnpm exec commitlint --edit $1"
   },
   "lint-staged": {
     "*": "eslint --fix"
