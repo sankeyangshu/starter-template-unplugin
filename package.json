@@ -2,7 +2,7 @@
   "name": "starter-template-unplugin",
   "version": "0.0.0",
   "type": "module",
-  "packageManager": "pnpm@10.22.0",
+  "packageManager": "pnpm@10.23.0",
   "description": "_description_",
   "author": {
     "name": "sankeyangshu",
@@ -64,7 +64,7 @@
     "prepare": "simple-git-hooks"
   },
   "dependencies": {
-    "unplugin": "^2.3.10",
+    "unplugin": "^2.3.11",
     "unplugin-utils": "^0.3.1"
   },
   "devDependencies": {
@@ -74,13 +74,13 @@
     "@types/node": "^24.10.1",
     "bumpp": "^10.3.1",
     "eslint": "^9.39.1",
-    "lint-staged": "^16.2.6",
+    "lint-staged": "^16.2.7",
     "prettier": "^3.6.2",
     "simple-git-hooks": "^2.13.1",
-    "tsdown": "^0.16.4",
+    "tsdown": "^0.16.6",
     "tsx": "^4.20.6",
     "typescript": "^5.9.3",
-    "vitest": "^4.0.9"
+    "vitest": "^4.0.13"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm typecheck && pnpm lint-staged",
