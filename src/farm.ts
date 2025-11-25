@@ -19,6 +19,6 @@ import { Starter } from './index';
  * }
  * ```
  */
-const farm = Starter.farm as typeof Starter.farm;
+const farm = Starter.farm;
 export default farm;
 export { farm as 'module.exports' };

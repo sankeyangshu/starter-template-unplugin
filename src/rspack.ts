@@ -19,6 +19,6 @@ import { Starter } from './index';
  * }
  * ```
  */
-const rspack = Starter.rspack as typeof Starter.rspack;
+const rspack = Starter.rspack;
 export default rspack;
 export { rspack as 'module.exports' };

@@ -1,6 +1,8 @@
-import { createUnplugin, type UnpluginInstance } from 'unplugin';
+import type { UnpluginInstance } from 'unplugin';
+import type { Options } from './core/options';
+import { createUnplugin } from 'unplugin';
 import { createFilter } from 'unplugin-utils';
-import { resolveOptions, type Options } from './core/options';
+import { resolveOptions } from './core/options';
 
 export const Starter: UnpluginInstance<Options | undefined, false> = createUnplugin((rawOptions = {}) => {
   const options = resolveOptions(rawOptions);

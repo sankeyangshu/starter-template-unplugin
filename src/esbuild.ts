@@ -13,10 +13,10 @@ import { Starter } from './index';
  * ```ts
  * import { build } from 'esbuild'
  * import Starter from 'unplugin-starter/esbuild'
- * 
+ *
  * build({ plugins: [Starter()] })
 ```
  */
-const esbuild = Starter.esbuild as typeof Starter.esbuild;
+const esbuild = Starter.esbuild;
 export default esbuild;
 export { esbuild as 'module.exports' };

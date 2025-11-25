@@ -12,8 +12,8 @@ export type OptionsResolved = Overwrite<Required<Options>, Pick<Options, 'enforc
 
 export function resolveOptions(options: Options): OptionsResolved {
   return {
-    include: options.include || [/\.[cm]?[jt]sx?$/],
-    exclude: options.exclude || [/node_modules/],
+    include: options.include ?? [/\.[cm]?[jt]sx?$/],
+    exclude: options.exclude ?? [/node_modules/],
     enforce: 'enforce' in options ? options.enforce : 'pre',
   };
 }
