@@ -1,7 +1,7 @@
 {
   "name": "starter-template-unplugin",
-  "version": "0.0.0",
   "type": "module",
+  "version": "0.0.0",
   "packageManager": "pnpm@10.23.0",
   "description": "_description_",
   "author": {
@@ -19,26 +19,20 @@
     "url": "https://github.com/sankeyangshu/starter-template-unplugin/issues"
   },
   "keywords": [],
-  "main": "./dist/index.js",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
-  "engines": {
-    "node": ">=20.0.0"
-  },
   "exports": {
-    ".": "./dist/index.js",
-    "./vite": "./dist/vite.js",
-    "./webpack": "./dist/webpack.js",
-    "./rspack": "./dist/rspack.js",
-    "./rollup": "./dist/rollup.js",
-    "./rolldown": "./dist/rolldown.js",
-    "./esbuild": "./dist/esbuild.js",
-    "./farm": "./dist/farm.js",
+    ".": "./dist/index.mjs",
+    "./vite": "./dist/vite.mjs",
+    "./webpack": "./dist/webpack.mjs",
+    "./rspack": "./dist/rspack.mjs",
+    "./rollup": "./dist/rollup.mjs",
+    "./rolldown": "./dist/rolldown.mjs",
+    "./esbuild": "./dist/esbuild.mjs",
+    "./farm": "./dist/farm.mjs",
     "./*": "./*"
   },
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
   "typesVersions": {
     "*": {
       "*": [
@@ -46,6 +40,12 @@
         "./*"
       ]
     }
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
   },
   "publishConfig": {
     "access": "public"
@@ -68,14 +68,13 @@
     "unplugin-utils": "^0.3.1"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^6.2.0",
     "@commitlint/cli": "^20.1.0",
     "@commitlint/config-conventional": "^20.0.0",
-    "@sankeyangshu/eslint-config": "^2.5.0",
     "@types/node": "^24.10.1",
     "bumpp": "^10.3.1",
     "eslint": "^9.39.1",
     "lint-staged": "^16.2.7",
-    "prettier": "^3.6.2",
     "simple-git-hooks": "^2.13.1",
     "tsdown": "^0.16.6",
     "tsx": "^4.20.6",

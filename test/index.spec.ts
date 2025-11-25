@@ -1,7 +1,7 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, it } from 'vitest';
 
 describe('should', () => {
-  test('exported', () => {
+  it('exported', () => {
     expect(1).toBe(1);
   });
 });

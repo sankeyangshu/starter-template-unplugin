@@ -1,3 +1,18 @@
-import { defineConfig } from '@sankeyangshu/eslint-config';
+import antfu from '@antfu/eslint-config';
 
-export default defineConfig();
+export default antfu({
+  type: 'lib',
+  typescript: {
+    tsconfigPath: 'tsconfig.json',
+  },
+  stylistic: {
+    indent: 2,
+    quotes: 'single',
+    semi: true,
+  },
+  isInEditor: false,
+  rules: {
+    'style/arrow-parens': ['error', 'always'], // 箭头函数参数始终添加括号
+    'style/brace-style': ['error', '1tbs', { allowSingleLine: true }], // 括号样式
+  },
+});
