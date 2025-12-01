@@ -2,7 +2,7 @@
   "name": "starter-template-unplugin",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@10.23.0",
+  "packageManager": "pnpm@10.24.0",
   "description": "_description_",
   "author": {
     "name": "sankeyangshu",
@@ -72,14 +72,14 @@
     "@commitlint/cli": "^20.1.0",
     "@commitlint/config-conventional": "^20.0.0",
     "@types/node": "^24.10.1",
-    "bumpp": "^10.3.1",
+    "bumpp": "^10.3.2",
     "eslint": "^9.39.1",
     "lint-staged": "^16.2.7",
     "simple-git-hooks": "^2.13.1",
-    "tsdown": "^0.16.6",
-    "tsx": "^4.20.6",
+    "tsdown": "^0.16.8",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3",
-    "vitest": "^4.0.13"
+    "vitest": "^4.0.14"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm typecheck && pnpm lint-staged",
