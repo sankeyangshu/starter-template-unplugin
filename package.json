@@ -73,12 +73,12 @@
     "@commitlint/config-conventional": "^20.5.0",
     "@types/node": "^25.6.0",
     "bumpp": "^11.0.1",
-    "eslint": "^10.2.0",
+    "eslint": "^10.2.1",
     "lint-staged": "^16.4.0",
     "simple-git-hooks": "^2.13.1",
-    "tsdown": "^0.21.7",
+    "tsdown": "^0.21.9",
     "tsx": "^4.21.0",
-    "typescript": "^6.0.2",
+    "typescript": "^6.0.3",
     "vitest": "^4.1.4"
   },
   "simple-git-hooks": {
