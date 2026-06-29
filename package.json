@@ -64,16 +64,16 @@
     "prepare": "simple-git-hooks"
   },
   "dependencies": {
-    "unplugin": "^3.0.0",
+    "unplugin": "^3.3.0",
     "unplugin-utils": "^0.3.1"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^9.0.0",
-    "@commitlint/cli": "^21.0.2",
-    "@commitlint/config-conventional": "^21.0.2",
+    "@antfu/eslint-config": "^9.1.0",
+    "@commitlint/cli": "^21.1.0",
+    "@commitlint/config-conventional": "^21.1.0",
     "@types/node": "^25.9.4",
     "bumpp": "^11.1.0",
-    "eslint": "^10.5.0",
+    "eslint": "^10.6.0",
     "lint-staged": "^17.0.8",
     "simple-git-hooks": "^2.13.1",
     "tsdown": "^0.22.3",
