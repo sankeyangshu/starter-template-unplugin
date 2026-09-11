@@ -2,7 +2,7 @@
   "name": "starter-template-unplugin",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@10.34.5",
+  "packageManager": "pnpm@12.4.1",
   "description": "_description_",
   "author": {
     "name": "sankeyangshu",
