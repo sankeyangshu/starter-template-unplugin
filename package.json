@@ -64,22 +64,22 @@
     "prepare": "simple-git-hooks"
   },
   "dependencies": {
-    "unplugin": "^3.3.0",
+    "unplugin": "^3.4.0",
     "unplugin-utils": "^0.3.2"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^9.1.0",
-    "@commitlint/cli": "^21.2.1",
-    "@commitlint/config-conventional": "^21.2.0",
-    "@types/node": "^25.9.5",
-    "bumpp": "^12.1.1",
-    "eslint": "^10.7.0",
-    "lint-staged": "^17.0.8",
-    "simple-git-hooks": "^2.13.1",
-    "tsdown": "^0.22.7",
-    "tsx": "^4.23.1",
+    "@antfu/eslint-config": "^9.5.1",
+    "@commitlint/cli": "^21.2.2",
+    "@commitlint/config-conventional": "^21.2.2",
+    "@types/node": "^25.9.7",
+    "bumpp": "^12.3.0",
+    "eslint": "^10.10.0",
+    "lint-staged": "^17.5.1",
+    "simple-git-hooks": "^2.14.0",
+    "tsdown": "^0.23.0",
+    "tsx": "^4.23.13",
     "typescript": "^6.0.3",
-    "vitest": "^5.0.0"
+    "vitest": "^5.0.1"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm typecheck && pnpm lint-staged",
