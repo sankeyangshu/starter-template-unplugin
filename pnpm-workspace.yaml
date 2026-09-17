@@ -3,7 +3,10 @@ packages:
   - examples/*
   - packages/*
   - playground
-onlyBuiltDependencies:
-  - esbuild
-  - simple-git-hooks
-  - unrs-resolver
+
+allowBuilds:
+  esbuild: true
+  simple-git-hooks: true
+
+minimumReleaseAgeExclude:
+  - unplugin@3.4.0
